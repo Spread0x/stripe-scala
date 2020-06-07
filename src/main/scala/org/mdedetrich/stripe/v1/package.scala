@@ -63,8 +63,10 @@ package object v1 {
       result = parsed match {
         case Right(triedDeleteResponse) =>
           util.Success(triedDeleteResponse.get)
-        case Left(error) =>
+        case Left(error) => {
+          logger.error(error.toString)
           util.Failure(error)
+        }
       }
     } yield result
   }

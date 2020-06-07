@@ -177,7 +177,7 @@ object Customers extends LazyLogging {
       shipping: Option[Shipping] = None,
       source: Option[Source] = None,
       taxPercent: Option[BigDecimal] = None,
-      trialEnd: Option[OffsetDateTime] = None
+      trialEnd: Option[OffsetDateTime] = None,
   )
 
   implicit val customerInputDecoder: Decoder[CustomerInput] = Decoder.forProduct11(
@@ -191,7 +191,7 @@ object Customers extends LazyLogging {
     "shipping",
     "source",
     "tax_percent",
-    "trial_end"
+    "trial_end",
   )(CustomerInput.apply)
 
   implicit val customerInputEncoder: Encoder[CustomerInput] = Encoder.forProduct11(
@@ -205,7 +205,7 @@ object Customers extends LazyLogging {
     "shipping",
     "source",
     "tax_percent",
-    "trial_end"
+    "trial_end",
   )(x => CustomerInput.unapply(x).get)
 
   final case class CustomerUpdate(
@@ -239,7 +239,7 @@ object Customers extends LazyLogging {
         "plan"            -> customerInput.plan,
         "quantity"        -> customerInput.quantity.map(_.toString),
         "tax_percent"     -> customerInput.taxPercent.map(_.toString()),
-        "trial_end"       -> customerInput.trialEnd.map(stripeDateTimeParamWrites)
+        "trial_end"       -> customerInput.trialEnd.map(stripeDateTimeParamWrites),
       )
     ) ++ PostParams.toPostParams("metadata", customerInput.metadata) ++ {
       customerInput.source match {
