@@ -28,7 +28,7 @@ It has been deployed to Maven Central, so to install it add the following to you
 
 ```scala
 libraryDependencies ++= Seq(
-  "com.github.jacke" %% "stripe-scala" % "0.4.0"
+  "com.github.jacke" %% "stripe-scala" % "0.5.0"
 )
 ```
 

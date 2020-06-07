@@ -7,7 +7,7 @@
     "object": {
       "id": "cus_AUrMDo0MNqoKI3",
       "object": "customer",
-      "account_balance": 0,
+      "balance": 0,
       "created": 1492503911,
       "currency": null,
       "default_source": null,

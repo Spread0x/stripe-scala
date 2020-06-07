@@ -42,7 +42,7 @@ object Customers extends LazyLogging {
 
   implicit val customerDecoder: Decoder[Customer] = Decoder.forProduct14(
     "id",
-    "account_balance",
+    "balance",
     "created",
     "livemode",
     "delinquent",
@@ -60,7 +60,7 @@ object Customers extends LazyLogging {
   implicit val customerEncoder: Encoder[Customer] = Encoder.forProduct15(
     "id",
     "object",
-    "account_balance",
+    "balance",
     "created",
     "livemode",
     "delinquent",
@@ -181,7 +181,7 @@ object Customers extends LazyLogging {
   )
 
   implicit val customerInputDecoder: Decoder[CustomerInput] = Decoder.forProduct11(
-    "account_balance",
+    "balance",
     "coupon",
     "description",
     "email",
@@ -195,7 +195,7 @@ object Customers extends LazyLogging {
   )(CustomerInput.apply)
 
   implicit val customerInputEncoder: Encoder[CustomerInput] = Encoder.forProduct11(
-    "account_balance",
+    "balance",
     "coupon",
     "description",
     "email",
@@ -232,7 +232,7 @@ object Customers extends LazyLogging {
   ): Future[Try[Customer]] = {
     val postFormParameters = PostParams.flatten(
       Map(
-        "account_balance" -> customerInput.accountBalance.map(_.toString()),
+        "balance" -> customerInput.accountBalance.map(_.toString()),
         "coupon"          -> customerInput.coupon,
         "description"     -> customerInput.description,
         "email"           -> customerInput.email,

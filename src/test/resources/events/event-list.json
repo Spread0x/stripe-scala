@@ -10,7 +10,7 @@
         "object": {
           "id": "cus_AUvzMo5heHwn1m",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492521130,
           "currency": null,
           "default_source": null,
@@ -53,7 +53,7 @@
         "object": {
           "id": "cus_AUvz3xtXkR9g5Z",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492521128,
           "currency": null,
           "default_source": null,
@@ -96,7 +96,7 @@
         "object": {
           "id": "cus_AUvzdyVO1ASiAh",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492521126,
           "currency": null,
           "default_source": null,
@@ -139,7 +139,7 @@
         "object": {
           "id": "cus_AUvzaLrYlwOPlG",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492521124,
           "currency": null,
           "default_source": null,
@@ -182,7 +182,7 @@
         "object": {
           "id": "cus_AUvz04d1BvXK98",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492521122,
           "currency": null,
           "default_source": null,
@@ -225,7 +225,7 @@
         "object": {
           "id": "cus_AUvzRnqqTibjYN",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492521120,
           "currency": null,
           "default_source": null,
@@ -268,7 +268,7 @@
         "object": {
           "id": "cus_AUvzwtqOYOHtp9",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492521117,
           "currency": null,
           "default_source": null,
@@ -311,7 +311,7 @@
         "object": {
           "id": "cus_AUvzefW6EFEuLP",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492521116,
           "currency": null,
           "default_source": null,
@@ -354,7 +354,7 @@
         "object": {
           "id": "cus_AUvzhzVSIFxkBW",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492521114,
           "currency": null,
           "default_source": null,
@@ -397,7 +397,7 @@
         "object": {
           "id": "cus_AUvzLiAQC1MCEH",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492521112,
           "currency": null,
           "default_source": null,
@@ -440,7 +440,7 @@
         "object": {
           "id": "cus_AUvzSyvqWREEtB",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492521106,
           "currency": null,
           "default_source": "card_1A9w7RJ6y4jvjvHhfEHDO9zF",
@@ -611,7 +611,7 @@
         "object": {
           "id": "cus_AUvzSyvqWREEtB",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492521106,
           "currency": null,
           "default_source": "card_1A9w7RJ6y4jvjvHh9xbo57pO",
@@ -683,7 +683,7 @@
         "object": {
           "id": "cus_AUvzSyvqWREEtB",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492521106,
           "currency": null,
           "default_source": null,
@@ -942,7 +942,7 @@
         "object": {
           "id": "cus_AUvzIwzHBtRjNK",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492521101,
           "currency": null,
           "default_source": null,
@@ -1366,7 +1366,7 @@
         "object": {
           "id": "cus_AUvztpO6Rk35Xl",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492521091,
           "currency": null,
           "default_source": "card_1A9w7CJ6y4jvjvHhg05vhq3o",
@@ -1526,7 +1526,7 @@
         "object": {
           "id": "cus_AUvz3hvLWmj9sH",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492521093,
           "currency": null,
           "default_source": null,
@@ -1606,7 +1606,7 @@
         "object": {
           "id": "cus_AUvzCgkaJdQViT",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492521089,
           "currency": null,
           "default_source": "card_1A9w7DJ6y4jvjvHhnEn8G29A",
@@ -1678,7 +1678,7 @@
         "object": {
           "id": "cus_AUvztpO6Rk35Xl",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492521091,
           "currency": null,
           "default_source": null,
@@ -1721,7 +1721,7 @@
         "object": {
           "id": "cus_AUvzCgkaJdQViT",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492521089,
           "currency": null,
           "default_source": null,
@@ -2064,7 +2064,7 @@
         "object": {
           "id": "cus_AUvzY8JJuCT1x1",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492521087,
           "currency": null,
           "default_source": null,
@@ -2107,7 +2107,7 @@
         "object": {
           "id": "cus_AUvzStYisTg4TI",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492521085,
           "currency": null,
           "default_source": null,
@@ -2150,7 +2150,7 @@
         "object": {
           "id": "cus_AUvzKj09EPdIki",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492521084,
           "currency": null,
           "default_source": null,
@@ -2334,7 +2334,7 @@
         "object": {
           "id": "cus_AUvyiV48qnc7Ox",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492521079,
           "currency": null,
           "default_source": "card_1A9w70J6y4jvjvHhNd3Oqyq7",
@@ -2607,7 +2607,7 @@
         "object": {
           "id": "cus_AUvzeEf0RS4uL3",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492521081,
           "currency": null,
           "default_source": null,
@@ -2904,7 +2904,7 @@
         "object": {
           "id": "cus_AUvyiV48qnc7Ox",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492521079,
           "currency": null,
           "default_source": null,
@@ -2984,7 +2984,7 @@
         "object": {
           "id": "cus_AUvyzaVMenJQrc",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492521074,
           "currency": null,
           "default_source": "card_1A9w6wJ6y4jvjvHhRhYpMN6x",
@@ -3056,7 +3056,7 @@
         "object": {
           "id": "cus_AUvy4ANxfy40Us",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492521077,
           "currency": null,
           "default_source": null,
@@ -3099,7 +3099,7 @@
         "object": {
           "id": "cus_AUvyzaVMenJQrc",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492521074,
           "currency": null,
           "default_source": null,
@@ -3142,7 +3142,7 @@
         "object": {
           "id": "cus_AUvyGbPwHtPfWk",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492521072,
           "currency": null,
           "default_source": null,
@@ -3185,7 +3185,7 @@
         "object": {
           "id": "cus_AUvGS7xkvKGEPI",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492518386,
           "currency": null,
           "default_source": null,
@@ -3228,7 +3228,7 @@
         "object": {
           "id": "cus_AUvG1n17Bjp7vc",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492518385,
           "currency": null,
           "default_source": null,
@@ -3271,7 +3271,7 @@
         "object": {
           "id": "cus_AUvGpqgzQWgPuR",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492518382,
           "currency": null,
           "default_source": null,
@@ -3314,7 +3314,7 @@
         "object": {
           "id": "cus_AUvGXK16GJjGmh",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492518380,
           "currency": null,
           "default_source": null,
@@ -3357,7 +3357,7 @@
         "object": {
           "id": "cus_AUvFGfbvUu6Wy5",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492518378,
           "currency": null,
           "default_source": null,
@@ -3400,7 +3400,7 @@
         "object": {
           "id": "cus_AUvFlhZWUVqnxK",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492518376,
           "currency": null,
           "default_source": null,
@@ -3443,7 +3443,7 @@
         "object": {
           "id": "cus_AUvFrnPdK0CG4c",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492518373,
           "currency": null,
           "default_source": null,
@@ -3486,7 +3486,7 @@
         "object": {
           "id": "cus_AUvFfwW4O3TH2O",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492518371,
           "currency": null,
           "default_source": null,
@@ -3529,7 +3529,7 @@
         "object": {
           "id": "cus_AUvF4Cb6PWXRkP",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492518369,
           "currency": null,
           "default_source": null,
@@ -3572,7 +3572,7 @@
         "object": {
           "id": "cus_AUvFfcxbWNbpFh",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492518368,
           "currency": null,
           "default_source": null,
@@ -3615,7 +3615,7 @@
         "object": {
           "id": "cus_AUvFsoMR9bZtKO",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492518362,
           "currency": null,
           "default_source": "card_1A9vPBJ6y4jvjvHhfWPRq5mz",
@@ -3786,7 +3786,7 @@
         "object": {
           "id": "cus_AUvFsoMR9bZtKO",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492518362,
           "currency": null,
           "default_source": "card_1A9vPBJ6y4jvjvHhWUTdkBhE",
@@ -3858,7 +3858,7 @@
         "object": {
           "id": "cus_AUvFsoMR9bZtKO",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492518362,
           "currency": null,
           "default_source": null,
@@ -4117,7 +4117,7 @@
         "object": {
           "id": "cus_AUvFUERlBvyrMG",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492518357,
           "currency": null,
           "default_source": null,
@@ -4541,7 +4541,7 @@
         "object": {
           "id": "cus_AUvFGxe2Sd3eBJ",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492518349,
           "currency": null,
           "default_source": "card_1A9vOyJ6y4jvjvHhcUZl19IM",
@@ -4701,7 +4701,7 @@
         "object": {
           "id": "cus_AUvFtvWE92i8tV",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492518351,
           "currency": null,
           "default_source": null,
@@ -4781,7 +4781,7 @@
         "object": {
           "id": "cus_AUvFuT1MVhFWQV",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492518347,
           "currency": null,
           "default_source": "card_1A9vOyJ6y4jvjvHhP14IDLok",
@@ -4853,7 +4853,7 @@
         "object": {
           "id": "cus_AUvFGxe2Sd3eBJ",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492518349,
           "currency": null,
           "default_source": null,
@@ -4896,7 +4896,7 @@
         "object": {
           "id": "cus_AUvFuT1MVhFWQV",
           "object": "customer",
-          "account_balance": 0,
+          "balance": 0,
           "created": 1492518347,
           "currency": null,
           "default_source": null,
