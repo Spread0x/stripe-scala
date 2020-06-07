@@ -1,4 +1,5 @@
 package org.mdedetrich.stripe.v1
+import akka.stream._
 
 import akka.http.scaladsl.HttpExt
 import akka.http.scaladsl.model.Uri

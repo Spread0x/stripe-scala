@@ -1,4 +1,5 @@
 package org.mdedetrich.stripe
+import akka.stream._
 
 import java.time.temporal.ChronoField
 import java.time.{Instant, OffsetDateTime, ZoneOffset}
@@ -10,8 +11,8 @@ import akka.http.scaladsl.model.headers._
 import akka.http.scaladsl.unmarshalling.Unmarshal
 import akka.stream.Materializer
 import com.typesafe.scalalogging.Logger
-import de.knutwalker.akka.http.support.CirceHttpSupport._
-import de.knutwalker.akka.stream.support.CirceStreamSupport
+import org.mdedetrich.akka.http.support.CirceHttpSupport._
+import org.mdedetrich.akka.http.JsonSupport._
 import io.circe.syntax._
 import io.circe.{Errors => _, _}
 import org.mdedetrich.stripe.v1.Errors.{Error, StripeServerError, UnhandledServerError}
@@ -324,7 +325,7 @@ package object v1 {
             .to[A]
             .map(x => Right(util.Success(x)))
             .recover {
-              case e: CirceStreamSupport.JsonParsingException => Right(util.Failure(e))
+              case e => Right(util.Failure(e))
             }
         } else {
           httpCode match {

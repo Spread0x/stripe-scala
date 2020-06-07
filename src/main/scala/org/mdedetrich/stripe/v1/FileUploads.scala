@@ -2,6 +2,7 @@ package org.mdedetrich.stripe.v1
 
 import java.io.InputStream
 import java.time.OffsetDateTime
+import akka.stream._
 
 import akka.http.scaladsl.HttpExt
 import akka.http.scaladsl.model._
